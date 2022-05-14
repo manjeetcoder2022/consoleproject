@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Console</title>
+</head>
+
+<body>
+    <h1> What is Console ?</h1>
+    <p>Console is an object which provides access to the browser debugging console . It is not used for
+        user only for Coder. </p>
+
+    <h2>What is of Console?</h2>
+    <p>The console is an operating system window where users interact with the
+        operating system or with a text-based console application by entering text input through the computer keyboard,
+        and by reading text output from the computer terminal.</p>
+
+    <h2>How to open Console?</h2>
+    <p>
+
+        By using Ctrl + Shift + I we open console or by clicking right  button on mouse and then click to inspect console is
+        open
+    </p>
+<h3>*You can see some console code output in console page*</h3>
+<script>
+    console.log("Simple text : "+ "Hello World")
+var a = 10;
+var b=20;
+var add =a+b
+console.log("Adding 10 + 20 value = " + add)
+
+var sub= b-a
+console.log("Subtracting 20 - 10 value = " + sub)
+
+var mul=a*b
+console.log("Multiply 10 * 20 value = " + mul)
+
+
+var divide=b/a
+console.log("dividing 20 / 10 value = " + divide)
+
+var f_name="Rohit"
+var m_name=" Prakash"
+var l_name=" Singh"
+console.log("Concat two or more text : " + f_name.concat(m_name.concat(l_name)))
+
+var full_name=f_name.concat(m_name.concat(l_name))
+console.log("Replace the middle name of user : " + full_name.replace("Prakash" , "Gond"))
+var replace_name= full_name.replace("Prakash" , "Gond")
+
+console.log("User name in LowerCase Letter : " + replace_name.toLowerCase())
+console.log("User name in CapitalCase Letter : " + replace_name.toUpperCase())
+
+var num = 144
+
+console.log("Square root of 144 = " + Math.sqrt(num))
+
+console.log("Maximum number in 1,7,8,4,1,1,0,74,8,3,96 = "+ Math.max(1,7,8,4,1,1,0,74,8,3,96))
+
+console.log("Minimum number in 1,7,8,4,1,1,0,74,8,3,96 = "+ Math.min(1,7,8,4,1,1,0,74,8,3,96))
+
+console.log("10 to the power 5 = " + Math.pow(10,5)) 
+
+var text=' "Hard Times Good Times"'
+
+console.log("Text Length of " + text +" = " + text.length)
+
+console.log(text + " = " + typeof(text))
+
+var num_3= 147
+console.log("Convert " + num_3 + " into String " + num_3.toString())
+
+var num_3_string=num_3.toString()
+console.log("Check " + num_3_string +" = " + typeof(num_3_string))
+    </script>
+</body>
+
+</html>

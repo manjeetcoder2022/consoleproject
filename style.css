@@ -1,0 +1,17 @@
+body{
+   text-align: center;
+    background-color: aqua;
+}
+p{
+   max-width: 400px;
+   margin: 50px auto;
+   font-size: 14px;
+   font-weight: bold;
+   color: rgb(37, 180, 56);
+}
+h1{
+   color: red;
+}
+h2{
+   color: brown;
+}
